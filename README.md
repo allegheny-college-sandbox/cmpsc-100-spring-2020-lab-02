@@ -94,7 +94,7 @@ One note about the Gator Kingdom lottery: numbers always appear in ascending ord
 
 Help G. Wiz add the missing 3! A correct arrangement should look like the following:
 
-```java
+```
  ********
 **********
 *   16   *
