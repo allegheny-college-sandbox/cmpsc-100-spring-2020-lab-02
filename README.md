@@ -41,11 +41,18 @@ I recommend reading the [GitHub Guides](https://guides.github.com) which GitHub 
 
 ## Evaluation
 
-This assignment will be evaluated based on completeness. Completing the following objectives indicates that you've done all the steps!
+This assignment requires the following outcomes:
 
-- [ ] Installed `git`
-- [ ] Moved the images in the activity to the correct folder
-- [ ] Successfully completed a `clone` and `push` operation
+- [ ] A correctly rearranged `CrystalBall.java` file which:
+    * Builds successfully (i.e. passes `gradle build`)
+    * Compiles successfully (i.e. passes `gradle run`)
+    * Produces output which matches example [below](#g-wiz-and-his-crystal-ball)
+    * Uses `single line comments` to label the predicitons:
+        * `Prediction 1`, `Prediction 2`, and `Prediction 3`
+- [ ] A `reflection.md` file located in the `writing` directory which:
+    * Is at least 250 words
+    * Contains at least 4 paragraphs
+    * Responds to _all_ questions
 
 ## Accepting the assignment
 
@@ -77,7 +84,62 @@ git clone git@github.com:allegheny-college-cmpsc-100-spring-2020/cmpsc-100-sprin
 
 ![G. Wiz looking for fast cash](https://github.com/allegheny-college-sandbox/cmpsc-100-spring-2020-lab-02/blob/media/media/CMPSC%20100%20-%20Lab.png)
 
+Like any gator focused on self-improvement in the new year, G. Wiz's fixed on a resolution to usher in 2020 with _style_ by buying some new wizard hats to add to his current collection. There's just one little problem, though: the hats they've picked cost a little more money than what they currently have to spend. 
+
+Reading the latest edition of _The Daily Scale_, the Gator Kingdom's reputable daily paper, G. Wiz remebered that the next lottery drawing is scheduled for next Thursday! As our gator friend is a wizard, they immediately pulled down their crystal ball to try to pick the winning numbers. But, in their haste, G. Wiz _dropped 3 of them_ and they broke into several pieces. Your task is to help them reassemble the 3 crystal balls to complete the winning lottery sequence!
+
+One note about the Gator Kingdom lottery: numbers always appear in ascending order (least to greatest). Based on previous predictions, the current numbers we know are:
+
+`4` `8` `15`
+
+Help G. Wiz add the missing 3! A correct arrangement should look like the following:
+
+```java
+ ********
+**********
+*   16   *
+**********
+ ********
+ 
+ ********
+**********
+*   23   *
+**********
+ ********
+
+ ********
+**********
+*   42   *
+**********
+ ********
+```
+
 ## GatorGrader
+
+### A note about `gradle`
+
+`gradle` is a program which manages our program's many moving parts. It coordinates building, testing, compiling, and running our code -- tasks that will become more complex over the course of the semester in direct proportion to the complexity of our programs. There are two "tasks" that we will use extensively in this course.
+
+#### `gradle build`
+
+`gradle build` compares code against a set of convetions ("best practices") for creating legible code. There are many different standards for doing this, but our department chooses to follow the [Google Style Guide for the Java language](https://google.github.io/styleguide/javaguide.html). This includes such rules as:
+
+* Each "level" of code being indented by 2 spaces
+* Not using single-letter identifiers
+* Enforcing consistent use of "Javadoc" (and other) comments
+* ... and more!
+
+These kinds of standard make reading code much easier, and help folks like our Technical Leaders (and me) read your code to figure out where something isn't going as planned.
+
+#### `gradle run` (and its variants)
+
+`gradle run` (and its counterpart `gradle -q --console plain run`) compile and run our Java programs. Once again, this will become more handy when we start to build projects that require _multiple_ files.
+
+#### `gradle grade`
+
+`gradle grade` runs the GatorGrader application. This application uses grading standards _specific to an assignment_. This means that the grading files created when you accept an assignment are the same ones by which I will evaluate your work: _once you've cloned an assignment, they do not change_.
+
+You will use this command to grade your work before you turn it in, enabling you to know before I grade it what your grade will be.
 
 ### Docker `container`
 
@@ -85,9 +147,9 @@ git clone git@github.com:allegheny-college-cmpsc-100-spring-2020/cmpsc-100-sprin
 
 #### Running GatorGrader directly on `container` start
 
-* Be sure that you are in the main directory of your lab repository when running these commands, or you'll certainly experience issues!
-    * Remember, the folder containing your work is located on the desktop.
-* Remember that if you run `ls -la`, you should see a `.git` folder if you're in the main repository folder.
+- [ ] `cd` to your `CMPSC100` folder
+- [ ] Locate the `cmpsc-100-spring-2020-lab-02` folder and `cd` to it.
+    * Remember that if you run `ls -la`, you should see a `.git` folder if you're in the main repository folder.
 - [ ] To make sure you're in the right repository, type `pwd` and press `Enter`
     * If you recieve the expected path, you're in the right place!
 
@@ -108,7 +170,8 @@ docker run -it --mount type=bind,source="$(pwd)",target="/project" --hostname Ga
 
 The GitHub platform is a place to store your work. So, it makes some sense that should be able to _clone_ (download) from it, and push back (upload) to it. Here, we'll learn this second part.
 
-- [ ] `cd` to your folder containing this lab in your `~/Desktop/CMPSC100/Labs` or `~/OneDrive/Desktop/CMSPC100/Labs` directory
+- [ ] `cd` to your `CMPSC100` folder
+- [ ] Locate the `cmpsc-100-spring-2020-lab-02` folder and `cd` to it.
 
 Once in this folder, we need to tell git that there have been changes.
 
