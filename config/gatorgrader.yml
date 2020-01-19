@@ -7,7 +7,7 @@ indent: 4
 src/main/java/labtwo:
     CrystalBall.java:
         ConfirmFileExists
-        CountSingleLineComments --language Java --count 5
+        CountSingleLineComments --language Java --count 3
 
 writing:
     reflection.md:
