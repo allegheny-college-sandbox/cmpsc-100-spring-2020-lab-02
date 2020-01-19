@@ -1,14 +1,11 @@
-# Lab 1 reflection: {YOUR NAME HERE}
+# Lab 2 reflection: {Your Name Here}
 
 TODO: Erase this line and respond to the questions below.
 
-## Describe the process of installing the various tools this exercise guided you through. 
+## What aspect of rearranging the program was most challenging for you? Why?
 
-### What was frustrating? What challenges did you overcome?
+## What is the difference between `println` and `print`? Why was the order important in this program?
 
-## Reflect on learning how to navigate using terminal commands such as `cd`,`ls`,`pwd` and others. 
+## Describe what we mean when we describe a program's "flow of control."
 
-### It is possible that these were counterintiutive or confusing for you. How did you overcome the strangeness of this new way of using your computer?
-
-## Which is your favorite picture of Ulysses (this is very important data)?
-
+### How was it important to the outcome of this lab?

@@ -12,9 +12,10 @@ src/main/java/labtwo:
 writing:
     reflection.md:
         ConfirmFileExists
-        CountFileParagraphs --count 5
+        CountFileWords --count 250
+        CountFileParagraphs --count 4
         MatchFileFragment --fragment "{YOUR NAME HERE}" --count 0 --exact
-        MatchFileFragment --fragment "TODO" -count 0 --exact
+        MatchFileFragment --fragment "TODO" --count 0 --exact
         
 CountCommits --count 3
 ExecuteCommand --command "gradle build"
