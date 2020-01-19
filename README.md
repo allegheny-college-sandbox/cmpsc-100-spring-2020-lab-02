@@ -84,9 +84,9 @@ git clone git@github.com:allegheny-college-cmpsc-100-spring-2020/cmpsc-100-sprin
 
 ![G. Wiz looking for fast cash](https://github.com/allegheny-college-sandbox/cmpsc-100-spring-2020-lab-02/blob/media/media/CMPSC%20100%20-%20Lab.png)
 
-Like any gator focused on self-improvement in the new year, G. Wiz's fixed on a resolution to usher in 2020 with _style_ by buying some new wizard hats to add to his current collection. There's just one little problem, though: the hats they've picked cost a little more money than what they currently have to spend. 
+Like any gator focused on self-improvement in the new year, G. Wiz's fixed on a resolution to usher in 2020 with _style_ by buying some new wizard hats to add to his current collection. There's just one little problem: the hats they've picked cost a little more money than what they currently have to spend!
 
-Reading the latest edition of _The Daily Scale_, the Gator Kingdom's reputable daily paper, G. Wiz remebered that the next lottery drawing is scheduled for next Thursday! As our gator friend is a wizard, they immediately pulled down their crystal ball to try to pick the winning numbers. But, in their haste, G. Wiz _dropped 3 of them_ and they broke into several pieces. Your task is to help them reassemble the 3 crystal balls to complete the winning lottery sequence!
+Reading the latest edition of _The Daily Scale_, the Gator Kingdom's reputable daily paper, G. Wiz remebered that the next lottery drawing is scheduled for next Thursday. As our gator friend is a wizard, they immediately pulled down their crystal ball set to try to pick the winning numbers. But, in their haste, G. Wiz _dropped 3 of them_ and they broke into several pieces. Your task is to help them reassemble the 3 crystal balls to complete the winning lottery sequence.
 
 One note about the Gator Kingdom lottery: numbers always appear in ascending order (least to greatest). Based on previous predictions, the current numbers we know are:
 
